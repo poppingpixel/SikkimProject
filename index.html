@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.75.1">
-    <title>Carousel Template · Bootstrap</title>
+    <title>Sikkim project</title>
 
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -57,6 +57,50 @@
         	height: 10px;
         	color: #fff;
         }
+
+        #PARA{
+        	padding-left: 5px;
+        }
+
+/*        #English , #Maths ,#Social ,#Science,#Hindig{
+        	background-image: linear-gradient(-45deg,#EE7752,#E73c7e,#23A605,#23d5ab);
+        	color: #fff;
+        	background-size: 400% 400%;
+        	position: relative;
+        	animation: ease-in-out;
+        	animation-direction: reverse;
+        	/*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+/**/
+
+
+              #English , #Maths ,#Social ,#Science,#Hindig{
+background: rgb(254,101,249);
+background: linear-gradient(124deg, rgba(254,101,249,1) 0%, rgba(250,161,244,1) 21%, rgba(247,171,206,1) 49%, rgba(0,212,255,1) 81%, rgba(0,148,179,1) 100%, rgba(50,197,227,1) 100%);
+    background-size: 400%,400%;
+    color: #fff;
+
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
 
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -178,6 +222,10 @@ body {
     .PARA{
   	font-size: 14px;
   }
+
+  #PARA{
+  	padding-left: 0px !important;
+  }
 }
     </style>
 
@@ -188,20 +236,26 @@ body {
   <body>
 
   	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Sikkim</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
     <ul class="navbar-nav" style="text-align: center; justify-content: center; align-items: center;">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#English">English <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#Hindi">Hindi <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#Maths">Maths <span class="sr-only">(current)</span></a>
+      </li>
+            <li class="nav-item active">
+        <a class="nav-link" href="#Social">Social Science <span class="sr-only">(current)</span></a>
+      </li>
+            <li class="nav-item active">
+        <a class="nav-link" href="#Science">Science <span class="sr-only">(current)</span></a>
       </li>
       
     </ul>
@@ -210,21 +264,24 @@ body {
 
 <main>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 0px !important;">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      	      <img src="https://source.unsplash.com/1440x700/?Sikkim mountain,Sikkim mountain" class="d-block w-100" alt="...">
+     	    <div class="carousel-inner">
+      <div class="carousel-item active info">
+      	      <img src="https://source.unsplash.com/1440x700/?Sikkim mountain,Sikkim mountain" class="d-block w-100" alt="..." style="  background: blue; background: rgb(35,0,36);
+   background: linear-gradient(90deg, rgba(35,0,36,0.33657212885154064) 0%, rgba(121,9,117,1) 0%, rgba(174,71,130,1) 46%, rgba(0,212,255,1) 100%); opacity: .6;">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
         <div class="container">
           <div class="carousel-caption text-center">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Sikkim Project</h1>
+            <p>
+             M.L.Khanna DAV Public School<br>Class- X-E<br>Group members- M.Rohit<br>Kunal Sharma<br>Saksham hooda<br>Unnati Saxena<br>Vanshika Singh</p>
           </div>
         </div>
       </div>
@@ -233,8 +290,8 @@ body {
       <img src="https://source.unsplash.com/1440x700/?Sikkim architecture,Sikkim architecture" class="d-block w-100" alt="...">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Sikkim the heaven</h1>
+            <p>Buddhist art is the best known through the thangka. Much of the imagery and stylistic.</p>
           </div>
         </div>
       </div>
@@ -243,8 +300,8 @@ body {
       <img src="https://source.unsplash.com/1440x700/?Sikkim Nature,Sikkim Nature" class="d-block w-100" alt="...">
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>सिक्किम कला का स्थान</h1>
+            <p>बौद्ध कला सबसे अच्छी थीग्का के माध्यम से जानी जाती है। पेंटिंग से अधिकांश कल्पना और शैलीगत प्रभाव वास्तुकला और लकड़ी के क्षेत्रों जैसे क्षेत्रों में अपनी छाप छोड़ गए।</p>
           </div>
         </div>
       </div>
@@ -260,7 +317,7 @@ body {
   </div>
 
 
-<section class="text-gray-700 body-font">
+<section class="text-gray-700 body-font" id="English">
   <div class="container px-5 py-20 mx-auto">
     <div class="flex flex-col text-center w-full mb-15">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">English</h2>
@@ -276,17 +333,18 @@ body {
       </h1>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div class="flex justify-center" style="padding-left: 5px !important;">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" style="text-align: center;">Button</button>
+        <a href="https://www.youtube.com/embed/NlVBXY7UIhY"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" style="text-align: center;">Click here to open video in youtube</button></a>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+<iframe width="500" height="315" src="https://www.youtube.com/embed/NlVBXY7UIhY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </section>
 
 
-<div class="Hindir" id="Hindi">
+<div id="Hindig">
+	<div class="Hindir" id="Hindi">
 	<section class="Hindi1">
 	<section class="Hindi">
 	<section class="text-gray-700 body-font">
@@ -294,8 +352,9 @@ body {
     <div class="flex flex-col text-center w-full mb-15">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Hindi</h2>
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">हिंदी सिक्किम परियोजना</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">हिंदी भारत में ज्यादातर इस्तेमाल की जाने वाली भाषा है। भारतीय भाषा का अधिकांश लोग इसका उपयोग करते हैं। यह संस्कृत का एक रूप है</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: #fff;">हिंदी भारत में ज्यादातर इस्तेमाल की जाने वाली भाषा है। भारतीय भाषा का अधिकांश लोग इसका उपयोग करते हैं। यह संस्कृत का एक रूप है</p>
  </div></div></section>
+</div>
 
 
  <section class="text-gray-500 bg-gray-900 body-font">
@@ -467,7 +526,7 @@ body {
 
 
 
-<section class="text-gray-700 body-font">
+<section class="text-gray-700 body-font" id="Maths">
   <div class="container px-5 py-20 mx-auto">
     <div class="flex flex-col text-center w-full mb-15">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Maths</h2>
@@ -489,7 +548,8 @@ body {
         </div>
         <div class="flex-grow">
           <h2 class="text-white text-lg title-font font-medium mb-3">Sikkim</h2>
-          <p class="leading-relaxed text-base">Sikkim has a rectangular architecture. It has cone to enlighten the architecture. They have curves.They have circles to pop up the architecture. They have a wide variety of designs on buildings and monuments. </p>
+          <p class="leading-relaxed text-base">Buddhist art is the best known through the thangka. Much of the imagery and stylistic influences from the painting left their mark in areas such as architecture and woodcraft. Monasteries become the patrons of many of these traditions. 
+Thangka painting as well as other artistic traditions associated with it are visible in Sikkim.These span various media and applications. They are seen in two-dimensional murals as well as three dimensions woodcraft, mask making, and architecture. Wheels of life murals are seen at the entrance of most monasteries.</p>
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
@@ -503,9 +563,15 @@ body {
             <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
           </svg>
         </div>
-        <div class="flex-grow">
+        <div class="flex-grow" id="PARA">
           <h2 class="text-white text-lg title-font font-medium mb-3">Delhi</h2>
-          <p class="leading-relaxed text-base">Delhi has a curved architecture. To make it more beautiful, there are rectangles, triangles. It has a tubular structure. It has also gained a supremacy in architecture.</p>
+          <p class="leading-relaxed text-base">Main features of the Mughal architecture are: <ul>
+          	<li> Large hall</li>
+          	<li> very large valued gateways  </li>
+          	<li> delicate ornamentation </li>
+          	<li> Bulbous domes</li>
+          	<li>slender minarets with cupolas at the 4 corners</li>
+          </ul> </p>
 
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -540,7 +606,12 @@ body {
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="images/m1.png" height="600" width="360">
+        	<a type="button" data-toggle="modal" data-target="#staticBackdrop">
+        		<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="images/m1.png" height="600" width="360">
+</a>
+        <div class="modal-dialog modal-lg" id="#staticBackdrop">
+        	<img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="images/m1.png" height="600" width="360">
+        </div>
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">Pie graph</h1>
@@ -586,7 +657,7 @@ body {
 
 
 
-<section class="text-gray-700 body-font">
+<section class="text-gray-700 body-font" id="Social">
   <div class="container px-5 py-20 mx-auto">
     <div class="flex flex-col text-center w-full mb-15">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Social Science</h2>
@@ -595,7 +666,7 @@ body {
  </div></div></section>
 
 <a href="https://davdwarkain-my.sharepoint.com/:p:/g/personal/m_rohit20144589_davdwarkain_onmicrosoft_com/EfwvyQfeYwNGrGkdMOkh6YsBlIXjsbKtuzBafnYD2zxpsQ?e=gi3Bpd">
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-bottom: 0px !important">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -685,7 +756,7 @@ body {
 </a></div></a>
 
 
-<section class="text-gray-700 body-font">
+<section class="text-gray-700 body-font" id="Science">
   <div class="container px-5 py-20 mx-auto">
     <div class="flex flex-col text-center w-full mb-15">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Science</h2>
@@ -752,6 +823,66 @@ body {
 </a>
 
 
+
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+    </div>
+    <div class="flex flex-wrap -m-2">
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/1440x700/?Mountains,Mountains">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">M.Rohit</h2>
+            <p class="text-gray-500">Website developer Data science Git Maths</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/1440x700/?Music,Music">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Kunal</h2>
+            <p class="text-gray-500">Video editing English</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/1440x700/?Mountains,Mountains">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Saksham hooda</h2>
+            <p class="text-gray-500">PPT Social Science</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/1440x700/?Mountains,Mountains">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Vanshika Singh</h2>
+            <p class="text-gray-500">PPT Science</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/1440x700/?Mountains,Mountains">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Unnati Saxena</h2>
+            <p class="text-gray-500">Word docs Hindi</p>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <footer class="text-gray-700 body-font">
   
   </div>
@@ -761,10 +892,10 @@ body {
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-        <span class="ml-3 text-xl">tailblocks</span>
+        <span class="ml-3 text-xl">Popping pixel</span>
       </a>
-      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 tailblocks —
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Popping pixel
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Github</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-gray-500">
